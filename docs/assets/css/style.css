@@ -159,6 +159,31 @@ h3 {
   color: var(--variant);
 }
 
+.text-image {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.figure {
+  margin: 0;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.figure figcaption {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--variant);
+}
+
 /* Sections */
 section {
   padding: 64px 0;
@@ -449,6 +474,7 @@ footer {
   .hero-grid,
   .two,
   .side-by-side,
+  .text-image,
   .contacts,
   .downloads {
     grid-template-columns: 1fr;
